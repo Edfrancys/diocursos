@@ -19,8 +19,8 @@ body {
     grid-gap: 18px;
 
     border-radius: 100%;
-    border: 1px solid #fff;
-    background-color: #fff;
+    border: 25px solid #333;
+    background-color: #333;
     
     width: 600px;
     height: 600px;    
@@ -31,7 +31,9 @@ body {
     background-color: rgb(29, 63, 128);
 
     border-bottom-right-radius: 100%;
-    border-top-left-radius: 8%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .red {
@@ -39,15 +41,19 @@ body {
     background-color: rgb(219, 74, 74);
 
     border-top-right-radius: 100%;
-    border-bottom-left-radius: 8%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .yellow {
     grid-area: yellow;
-    background-color: rgb(229, 241, 62);
+    background-color: rgb(241, 193, 62);
 
     border-bottom-left-radius: 100%;
-    border-top-right-radius: 8%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .green {
@@ -55,9 +61,11 @@ body {
     background-color: rgb(103, 219, 74);
 
     border-top-left-radius: 100%;
-    border-bottom-right-radius: 8%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .selected {
-    opacity: 0.8;
+    opacity: 0.3;
 }
