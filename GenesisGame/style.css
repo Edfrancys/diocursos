@@ -1,6 +1,9 @@
 body {
     margin: 0;
-    background-color: rgb(200, 255, 239);
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: rgb(226, 226, 226);
 }
 
 .mainGame {
@@ -8,6 +11,7 @@ body {
     width: 100vw;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -22,18 +26,18 @@ body {
     border: 25px solid #333;
     background-color: #333;
     
-    width: 600px;
-    height: 600px;    
+    width: 400px;
+    height: 400px;    
 }
 
 .blue {
     grid-area: blue;
-    background-color: rgb(29, 63, 128);
+    background-color: rgb(32, 97, 216);
 
     border-bottom-right-radius: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .red {
